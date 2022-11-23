@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite ESPN">
+    <listeners>
+        <listener class-name="org.bank.utils.Listener"/>
+    </listeners>
+
+    <parameter name="url" value=""/>
+
+    <test name="Test 1">
+        <parameter name="" value=""/>
+        <classes>
+            <class name="org.bank.test.EmptyEndpointTest"/>
+        </classes>
+    </test>
+</suite>
+
