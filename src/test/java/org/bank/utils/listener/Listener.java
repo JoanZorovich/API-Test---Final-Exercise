@@ -1,9 +1,10 @@
-package org.bank.utils;
+package org.bank.utils.listener;
 
+import org.bank.utils.reporter.Reporter;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import static org.bank.utils.Reporter.info;
+import static org.bank.utils.reporter.Reporter.info;
 
 public class Listener implements ITestListener {
 

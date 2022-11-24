@@ -1,4 +1,4 @@
-package org.bank.utils;
+package org.bank.utils.reporter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

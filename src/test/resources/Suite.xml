@@ -2,13 +2,11 @@
 
 <suite name="Test Suite ESPN">
     <listeners>
-        <listener class-name="org.bank.utils.Listener"/>
+        <listener class-name="org.bank.utils.listener.Listener"/>
     </listeners>
 
-    <parameter name="url" value=""/>
 
     <test name="Test 1">
-        <parameter name="" value=""/>
         <classes>
             <class name="org.bank.test.EmptyEndpointTest"/>
         </classes>
