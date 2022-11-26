@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Test Suite ESPN">
+<suite name="Test Suite Bank Users">
     <listeners>
         <listener class-name="org.bank.utils.listener.Listener"/>
     </listeners>
@@ -8,7 +8,7 @@
 
     <test name="Test 1">
         <classes>
-            <class name="org.bank.test.EmptyEndpointTest"/>
+            <class name="org.bank.test.DuplicateEmailAccountsTest"/>
         </classes>
     </test>
 </suite>

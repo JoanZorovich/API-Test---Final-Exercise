@@ -1,11 +1,13 @@
 package org.bank.utils.test;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.http.ContentType.JSON;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.bank.model.User;
 
 public class RestAssuredUtil {
     //Sets Base URI
@@ -40,8 +42,21 @@ public class RestAssuredUtil {
 
     //Returns response
     public static Response getResponse() {
-        return given().get();
+        return given().when().get();
     }
+
+    public static Response deleteRequest(User user) {
+        return given().when().delete("/" + user.getId());
+    }
+
+    public static Response postRequest(User user) {
+        return given().contentType(JSON).body(user).when().post();
+    }
+
+    public static Response putRequest(User user) {
+        return given().body(user).when().put("/" + user.getId());
+    }
+
 
     //Returns JsonPath object
     public static JsonPath getJsonPath(Response res) {
