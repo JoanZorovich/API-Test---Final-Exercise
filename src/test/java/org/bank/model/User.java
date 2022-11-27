@@ -1,6 +1,7 @@
 package org.bank.model;
 
 public class User {
+
     private int id;
     private String name;
     private String lastName;
@@ -12,9 +13,10 @@ public class User {
     private String country;
     private String telephone;
 
-    public User(int id, String name, String lastName, int accountNumber, double amount, String transactionType,
+    public User(){}
+
+    public User(String name, String lastName, int accountNumber, double amount, String transactionType,
                 String email, boolean active, String country, String telephone) {
-        this.id = id;
         this.name = name;
         this.lastName = lastName;
         this.accountNumber = accountNumber;
@@ -26,14 +28,13 @@ public class User {
         this.telephone = telephone;
     }
 
+
     /**
      * Getters
      * @return
      */
 
-    public int getId() {
-        return id;
-    }
+    public int getId() {return id;}
 
     public String getName() {
         return name;
@@ -70,6 +71,8 @@ public class User {
     public String getTelephone() {
         return telephone;
     }
+
+
 
 
     /**
@@ -116,4 +119,13 @@ public class User {
         this.telephone = telephone;
     }
 
-}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Float.compare(user.id, id) == 0;
+    }
+
+    }
+
