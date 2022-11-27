@@ -33,6 +33,23 @@ __IMPORTANT__: This project was built with version 8 of Java, so try to have the
 3. Run the suite tests
 
 
+## Considerations
+
+### - Test 1 EmptyEndpointTest
+Make sure that the API has less than 30 users created. If the endpoint has data from many users, this can create a 429 error
+
+### - Test 2 PostUsersTest
+For this test, an integer data type called userAmount was created, with the value 10, this according to the test requirement
+
+If desired, this value can be modified to create more users.
+
+### - Test 3 DuplicateEmailAccountsTest
+NA
+
+### - Test 4 UpdateAccountNumberTest
+The user whose account number is going to be changed is chosen randomly, in the same way, if desired, you can indicate the user on whom you want to change the account number.
+
+
 
 ![Capture](https://user-images.githubusercontent.com/74875335/204118921-cde50003-6a31-4fbf-bf0f-7b95d8f04941.JPG)
 
