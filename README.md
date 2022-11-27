@@ -20,7 +20,7 @@ Add a test to update an existing AccountNumber
 
 
 
-## Set up 🚀
+## Set up 
 _These instructions will allow you to get a working copy of the project on your premises for development and testing purposes._
 __IMPORTANT__: This project was built with version 8 of Java, so try to have the same version to ensure that it works perfectly
 
