@@ -1,0 +1,9 @@
+org\bank\test\EmptyEndpointTest.class
+org\bank\test\PostUsersTest.class
+org\bank\test\DuplicateEmailAccountsTest.class
+org\bank\test\UpdateAccountNumberTest.class
+org\bank\utils\test\RestAssuredUtil.class
+org\bank\model\User.class
+org\bank\utils\listener\Listener.class
+org\bank\utils\reporter\Reporter.class
+org\bank\test\BaseTest.class
