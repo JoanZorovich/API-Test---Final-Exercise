@@ -127,5 +127,4 @@ public class User {
         return Float.compare(user.id, id) == 0;
     }
 
-    }
-
+}
