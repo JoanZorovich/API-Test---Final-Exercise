@@ -7,14 +7,15 @@ Four tests are performed in this repository, using the API [mockapi](https://moc
 ### - Test 1
 Verify the Endpoint is empty (If it has any data use the DELETE request to clean and leave it empty)
 
-## - Test 2
+### - Test 2
 Initialize the POJO with 10 random data.  Also, make a code verification for avoiding duplicate email accounts. Then, perform the POST request.
 
-## - Test 3
+### - Test 3
 Make the GET request, asserting that there are not duplicate email accounts.
 
-## - Test 4
+### - Test 4
 Add a test to update an existing AccountNumber
+
 
 
 ## Set up 🚀
