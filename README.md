@@ -19,3 +19,15 @@ Add a test to update an existing AccountNumber
 
 ## Set up 🚀
 _These instructions will allow you to get a working copy of the project on your premises for development and testing purposes._
+__IMPORTANT__: This project was built with version 8 of Java, so try to have the same version to ensure that it works perfectly
+
+1. Clona the repo
+   ```sh
+   git clone https://github.com/JoanZorovich/API-Test---Final-Exercise.git
+   ```
+2. Install dependencies
+   ```sh
+   mvn clean install
+   ```
+3. Run the suite tests
+   
