@@ -15,3 +15,7 @@ Make the GET request, asserting that there are not duplicate email accounts.
 
 ## - Test 4
 Add a test to update an existing AccountNumber
+
+
+## Set up 🚀
+_These instructions will allow you to get a working copy of the project on your premises for development and testing purposes._
