@@ -31,4 +31,12 @@ __IMPORTANT__: This project was built with version 8 of Java, so try to have the
    mvn clean install
    ```
 3. Run the suite tests
+
+
+
+
+
+
+---
+⌨️ con ❤️ por [Joan Zorovich](https://github.com/JoanZorovich) 😊
    
