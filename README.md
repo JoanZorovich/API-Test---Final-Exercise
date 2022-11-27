@@ -40,7 +40,7 @@ __IMPORTANT__: This project was built with version 8 of Java, so try to have the
 ## Considerations
 
 ### - Test 1 EmptyEndpointTest
-Make sure that the API has less than 30 users created. If the endpoint has data from many users, this can create a 429 error
+Make sure that the API has less than 30 users created. If the endpoint has data from many users, this could display a 429 status
 
 ### - Test 2 PostUsersTest
 For this test, an integer data type called userAmount was created, with the value 10, this according to the test requirement
