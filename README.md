@@ -1,4 +1,4 @@
-# API-Test - User Bank
+# API-Test - Bank User
 
 Four tests are performed in this repository, using the API [mockapi](https://mockapi.io/projects).
 
