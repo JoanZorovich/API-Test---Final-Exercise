@@ -5,10 +5,24 @@
         <listener class-name="org.bank.utils.listener.Listener"/>
     </listeners>
 
-
     <test name="Test 1">
         <classes>
+            <class name="org.bank.test.EmptyEndpointTest"/>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="org.bank.test.PostUsersTest"/>
+        </classes>
+    </test>
+    <test name="Test 3">
+        <classes>
             <class name="org.bank.test.DuplicateEmailAccountsTest"/>
+        </classes>
+    </test>
+    <test name="Test 4">
+        <classes>
+            <class name="org.bank.test.UpdateAccountNumberTest"/>
         </classes>
     </test>
 </suite>

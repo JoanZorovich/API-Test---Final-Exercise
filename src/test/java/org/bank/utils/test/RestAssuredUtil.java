@@ -9,6 +9,8 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.bank.model.User;
 
+import java.util.Map;
+
 public class RestAssuredUtil {
     //Sets Base URI
     public static void setBaseURI() {
@@ -53,9 +55,10 @@ public class RestAssuredUtil {
         return given().contentType(JSON).body(user).when().post();
     }
 
-    public static Response putRequest(User user) {
-        return given().body(user).when().put("/" + user.getId());
+    public static Response putRequest(Map dataChange, User user){
+        return given().contentType(JSON).body(dataChange).when().put("/" + user.getId());
     }
+
 
 
     //Returns JsonPath object
